@@ -30,6 +30,7 @@ public class cosasJava {
         } //for
         */
         
+        /*
         int n = 1;
         while(n < 11){
             if(n%2 == 0){
@@ -37,8 +38,22 @@ public class cosasJava {
             } //if
             n++;
         } //while
+        */
         
+        int N = 33;
+        int D = 5;
+        int R = N;
+        int Q = 0;
+        while (R >= D){
+            R = R - D;
+            Q++;      
+        }
+        System.out.println("El resto es:");
+        System.out.println(R);
+        System.out.println("La Q da: " + Q);
+        System.out.println(Q);
         
+            
         
     } //main
 } //cosasJava
