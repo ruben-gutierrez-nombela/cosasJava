@@ -76,6 +76,7 @@ public class cosasJava {
         D = sc.nextInt();
         */
         
+        /*
         // termino N de la sucesión de Fibonacci
         // arrays
         // recursividad
@@ -91,6 +92,7 @@ public class cosasJava {
             x2 = Fib;
         } // for
         System.out.println(Fib);
+        */
         /*
         int x3 = x2 + x1;
         int x4 = x3 + x2;
@@ -99,7 +101,19 @@ public class cosasJava {
         System.out.println(x5);
          */       
         
-            
+        String[] palabras = {"hola", "adios"};
+        System.out.println(palabras[0]);
+        System.out.println(palabras[1]);
         
+        palabras[0] = "algo aqui";
+        
+        System.out.println(palabras[0]);
+        
+        for (int i = 0; i < palabras.length; i++) {
+            System.out.println(palabras[i]);
+        }
+        
+        String[] palabras2 = new String[23];
+        System.out.println(palabras2[0]);
     } //main
 } //cosasJava
