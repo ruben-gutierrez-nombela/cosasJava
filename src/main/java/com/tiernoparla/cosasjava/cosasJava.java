@@ -59,7 +59,7 @@ public class cosasJava {
         System.out.println(N == D*Q+R);
         */
         
-        
+        /*
         Scanner sc = new Scanner(System.in);
         int N;
         System.out.println("Dame un número entero: ");
@@ -74,8 +74,30 @@ public class cosasJava {
         
         System.out.println("Dame D: ");
         D = sc.nextInt();
+        */
         
+        // termino N de la sucesión de Fibonacci
+        // arrays
+        // recursividad
         
+        int N = 10;
+        int x1 = 1;
+        int x2 = 1;
+        int Fib = 0;
+        for (int i = 3; i <= N; i++) {
+            System.out.println(Fib);
+            Fib = x2 + x1;
+            x1 = x2;
+            x2 = Fib;
+        } // for
+        System.out.println(Fib);
+        /*
+        int x3 = x2 + x1;
+        int x4 = x3 + x2;
+        int x5 = x4 + x3;
+        
+        System.out.println(x5);
+         */       
         
             
         
