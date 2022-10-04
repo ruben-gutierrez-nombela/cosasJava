@@ -101,6 +101,7 @@ public class cosasJava {
         System.out.println(x5);
          */       
         
+        /*
         String[] palabras = {"hola", "adios"};
         System.out.println(palabras[0]);
         System.out.println(palabras[1]);
@@ -115,5 +116,36 @@ public class cosasJava {
         
         String[] palabras2 = new String[23];
         System.out.println(palabras2[0]);
+        */
+        
+        /*
+        int[] Fib = {1, 1, 0};
+        int N = 7;
+        
+        for (int i = 0; i <= N; i++) {
+            Fib[2] = Fib[1] + Fib[0];
+            Fib[0] = Fib[1];
+            Fib[1] = Fib[2];
+            System.out.println(Fib[2]);
+        }
+        */
+        
+        
+        // Tengo N
+        int N = 5;
+        // Defino un array de tamaño N
+        int[] fib = new int[N];
+        // Guardo los 2 primeros terminos
+        fib[0] = 1;
+        fib[1] = 1;
+        // Loop para calcular y guardar los siguientes hasta N
+        for (int i = 2; i < N; i++) {
+            fib[i] = fib[i-1] + fib[i-2];
+        }
+        
+        for (int i = 0; i < fib.length; i++) {
+            System.out.println(fib[i]);
+        }
+        
     } //main
 } //cosasJava
