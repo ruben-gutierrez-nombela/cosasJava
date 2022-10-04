@@ -1,6 +1,7 @@
 package com.tiernoparla.cosasJava;
 
 import java.util.Scanner;
+import java.lang.Math;
         
 public class cosasJava {
 
@@ -130,7 +131,7 @@ public class cosasJava {
         }
         */
         
-        
+        /*
         // Tengo N
         int N = 5;
         // Defino un array de tamaño N
@@ -146,6 +147,45 @@ public class cosasJava {
         for (int i = 0; i < fib.length; i++) {
             System.out.println(fib[i]);
         }
+        */
+        
+        
+        // Sacar las 4 cifras de un num de 4 cifras
+        int N = 1435;
+        int tam = 4;
+        int tmp = N;
+        // int cifra;
+        int[] cifras = new int[tam];
+        
+        for (int i = 0; i < tam; i++) {
+            cifras[i] = tmp % 10;
+            System.out.println(cifras[i]);
+            tmp = tmp/10;
+        }
+        
+        // Recuperar el número
+        
+       // System.out.println(cifras[0]*Math.pow(10,tam-1));
+       // System.out.println(cifras[0]*Math.pow(10,tam-2));
+       // System.out.println(cifras[0]*Math.pow(10,tam-3));
+       // System.out.println(cifras[0]*Math.pow(10,tam-4));
+        
+        for (int i = 0; i < tam; i++) {
+            System.out.println(cifras[i]*Math.pow(10,tam-(i+1)));
+        }
+        double x = cifras[0]*Math.pow(10,tam-1) + cifras[0]*Math.pow(10,tam-2) + cifras[0]*Math.pow(10,tam-3) + cifras[0]*Math.pow(10,tam-4);
+        System.out.println(x);
+        /*
+        System.out.println(N%10); // primera cifra
+        System.out.println((N/10)%10); // segunda cifra
+        System.out.println(((N/10)/10)%10); // tercera cifra
+        System.out.println((((N/10)/10)/10)%10); // cuarta cifra
+        */
+        
+        
+        
+        
+        
         
     } //main
 } //cosasJava
