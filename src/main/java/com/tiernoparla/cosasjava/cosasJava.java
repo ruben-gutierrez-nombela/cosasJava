@@ -247,6 +247,7 @@ public class cosasJava {
         
         System.out.println("el minimo es: " + min);
         */
+        /*
         // CON BUCLE FOR
         double[] num = {1, 7.2, -4.5, -21, 3.14, 0};
         double min = num[0];
@@ -254,11 +255,26 @@ public class cosasJava {
         for (int i = 1; i < num.length; i++) {
             if (min > num[i]) {
                 min = num[i];
-            } 
+            } // if
             System.out.println(min);
         } // for
         
         System.out.println("el mínimo es: " + min);
+        */
+        
+        // Calcular la media
+        float[] num = {1, 2, 3, 4};
+        float m = 0;
+        
+        for (int i = 0; i < num.length; i++) {
+            m = m + num[i];
+        } // for
+        System.out.println("La media es: " + (m/num.length));
+        
+        
+        
+        
+        
         
         
     } //main
