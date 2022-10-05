@@ -149,7 +149,7 @@ public class cosasJava {
         }
         */
         
-        
+        /*
         // Sacar las 4 cifras de un num de 4 cifras
         int N = 1435;
         int tam = 4;
@@ -182,9 +182,83 @@ public class cosasJava {
         System.out.println((((N/10)/10)/10)%10); // cuarta cifra
         */
         
+        /*
+        int N = 123456;
+        
+        int tmp = N;
+        int cifra;
+        int reverso = 0;
+        
+        while(tmp > 0){
+            cifra = tmp % 10;
+            reverso = reverso*10 + cifra;
+            System.out.println(tmp);
+            tmp = tmp/10;
+        } // while
+        
+        System.out.println(reverso);
+        */
         
         
+        // Dados N números, cuál es el menor/mayor de todos
+        // CON 2 NÚMEROS
+        /*
+        double a = 5.43;
+        double b = -43.2122;
+        double min;
         
+        if (a > b) {
+            min = b;
+        }
+        else {
+            min = a;
+        } // if-else
+        
+        System.out.println("el minimo es: " + min);
+        */
+        // CON 5 NÚMEROS
+        /*
+        double a = 1;
+        double b = -7.2;
+        double c = 4.5;
+        double d = -21;
+        double e = 3.14;
+        double f = 0;
+        double min;
+        
+        if (a > b) {
+            min = b;
+        }
+        else if (false) {
+            min = a;
+        }
+        else if (a > c) {
+            min = c;
+        }
+        else if (c > d) {
+            min = d;
+        }
+        else if (d > e) {
+            min = e;
+        }
+        else{
+            min = f;
+        }
+        
+        System.out.println("el minimo es: " + min);
+        */
+        // CON BUCLE FOR
+        double[] num = {1, 7.2, -4.5, -21, 3.14, 0};
+        double min = num[0];
+        
+        for (int i = 1; i < num.length; i++) {
+            if (min > num[i]) {
+                min = num[i];
+            } 
+            System.out.println(min);
+        } // for
+        
+        System.out.println("el mínimo es: " + min);
         
         
     } //main
