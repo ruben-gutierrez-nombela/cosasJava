@@ -262,7 +262,9 @@ public class cosasJava {
         System.out.println("el mínimo es: " + min);
         */
         
+        /*
         // Calcular la media
+        //CON FOR
         float[] num = {1, 2, 3, 4};
         float m = 0;
         
@@ -270,6 +272,17 @@ public class cosasJava {
             m = m + num[i];
         } // for
         System.out.println("La media es: " + (m/num.length));
+        
+        // CON WHILE Y hasNext
+        */
+        
+        // STRING
+        String a = "zaratrustra";
+        
+        System.out.println(a.charAt(a.length()/2));
+        
+        
+        
         
         
         
