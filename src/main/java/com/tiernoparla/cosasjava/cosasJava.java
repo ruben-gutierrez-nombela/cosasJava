@@ -276,12 +276,49 @@ public class cosasJava {
         // CON WHILE Y hasNext
         */
         
-        // STRING
-        String a = "zaratrustra";
+        /*
+        // STRING (INACABADO)
+        String a = "abba";
         
-        System.out.println(a.charAt(a.length()/2));
+        int l = a.length();
+        
+        if (l / 2 == 0) {
+          System.out.println(a.charAt(l/2));  
+        }
+        else {
+          l = l/2;
+          System.out.println(a.substring(l/2));
+        }
+        */
+        
+        // AND
+        String srt = "aeiou";
+        int cont = 0;
+        
+        for (int i = 0; i < srt.length(); i++) {
+            //System.out.println(srt.charAt(i));
+            char c = srt.charAt(i);
+            if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u'){
+                cont++;
+            }// if    
+        } // for
+        
+        System.out.println(cont);
+        
+        for (char c: srt.toCharArray()) {
+            //System.out.println(c);
+        }// for
         
         
+        /*
+        // USER SEED EN RANDOM
+        int seed = 0;
+        
+        for (int i = 0; i < 100; i++) {
+            Random gen = new Random(seed);
+            System.out.println(gen.nextDouble());
+        }
+        */
         
         
         
