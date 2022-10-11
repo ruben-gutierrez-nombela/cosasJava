@@ -291,7 +291,7 @@ public class cosasJava {
         }
         */
         
-        // AND
+        // AND OR
         String srt = "aeiou";
         int cont = 0;
         
@@ -305,8 +305,14 @@ public class cosasJava {
         
         System.out.println(cont);
         
+        
+        //que pasa si hay mayus??
+        //fuerzo a que las str sea lowercase
         for (char c: srt.toCharArray()) {
             //System.out.println(c);
+            if(c == 'a' ||c == 'e' ||c == 'i' ||c == 'o' ||c == 'u'){
+                cont++;
+            }// if
         }// for
         
         
