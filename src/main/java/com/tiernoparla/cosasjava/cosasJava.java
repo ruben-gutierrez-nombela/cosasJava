@@ -291,6 +291,8 @@ public class cosasJava {
         }
         */
         
+        
+        /*        
         // AND OR
         String srt = "aeiou";
         int cont = 0;
@@ -314,7 +316,7 @@ public class cosasJava {
                 cont++;
             }// if
         }// for
-        
+        */
         
         /*
         // USER SEED EN RANDOM
@@ -326,7 +328,13 @@ public class cosasJava {
         }
         */
         
-        
+        /*
+        //contar palabras
+        String str = " Salimos a las 20 ";
+        str = str.trim(); // para borrar caracteres en blanco iniciales y finales
+        String[] palabras = str.split("\\s+");// para borrar espacios en blanco y duplicados
+        System.out.println(palabras.length);
+        */
         
         
         
