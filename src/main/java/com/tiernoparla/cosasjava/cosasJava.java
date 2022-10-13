@@ -336,6 +336,17 @@ public class cosasJava {
         System.out.println(palabras.length);
         */
         
+        // Interés anual
+        int anos = 5;
+        double intereses = 5;
+        double money = 100;
+        
+        for (int i = 0; i < anos; i++) {
+            money = money +(money*intereses/100);
+        }
+        System.out.println(money);
+        
+        
         
         
         
