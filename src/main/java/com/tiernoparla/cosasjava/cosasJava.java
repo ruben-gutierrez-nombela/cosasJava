@@ -336,6 +336,7 @@ public class cosasJava {
         System.out.println(palabras.length);
         */
         
+        /*
         // Interés anual
         int anos = 5;
         double intereses = 5;
@@ -345,7 +346,24 @@ public class cosasJava {
             money = money +(money*intereses/100);
         }
         System.out.println(money);
+        */
         
+        
+        //metodo que diga si un año es bisiesto
+        int ano = 40961;
+        
+        if (ano%4 != 0){
+            System.out.println("El año " + ano + " no es bisiesto1");
+        }// if
+        else if (ano%100 != 0){
+            System.out.println("El año " + ano + " es bisiesto1");
+        }// else if
+        else if (ano%400 != 0){
+            System.out.println("El año " + ano + " no es bisiesto2");
+        }// else if
+        else{
+            System.out.println("El año " + ano + " es bisiesto2");
+        }// else
         
         
         
