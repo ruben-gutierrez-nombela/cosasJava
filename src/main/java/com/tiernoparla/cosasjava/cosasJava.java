@@ -348,7 +348,7 @@ public class cosasJava {
         System.out.println(money);
         */
         
-        
+        /*
         //metodo que diga si un año es bisiesto
         int ano = 40961;
         
@@ -364,11 +364,20 @@ public class cosasJava {
         else{
             System.out.println("El año " + ano + " es bisiesto2");
         }// else
+        */
         
         
+        // String[] str_arr = {"a","b","c","aasd"};
+        // System.out.println(str_arr[2]);
+        String[][] str_matrix = {
+            {"23524","wwf"},
+            {"erge35t3","fwg2g2g","sdgsgwg"},
+            {"c"}
+        };
         
-        
-        
+        String[][] asfasd = new String[5][6];
+                
+        System.out.println(str_matrix[2][0]);
         
     } //main
 } //cosasJava
