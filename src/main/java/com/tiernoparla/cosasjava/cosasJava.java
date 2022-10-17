@@ -2,6 +2,7 @@ package com.tiernoparla.cosasJava;
 
 import java.util.Scanner;
 import java.lang.Math;
+import java.util.Arrays;
         
 public class cosasJava {
 
@@ -367,6 +368,9 @@ public class cosasJava {
         */
         
         
+
+        // MATRICES
+        /*
         // String[] str_arr = {"a","b","c","aasd"};
         // System.out.println(str_arr[2]);
         String[][] str_matrix = {
@@ -378,6 +382,28 @@ public class cosasJava {
         String[][] asfasd = new String[5][6];
                 
         System.out.println(str_matrix[2][0]);
+        */
+        
+        int N = 5;
+        int matriz [][] = new int [N][N];
+        
+        for (int x = 0; x < matriz.length; x++) {
+            for (int y = 0; y < matriz[x].length; y++) {
+                matriz[x][y] = (int)(Math.random()*2);
+                System.out.print(matriz [x][y]);
+            }// for y
+            System.out.println();
+        }// for x
+        
+        
+        for (int[] arr: matriz) {
+            System.out.println(Arrays.toString(arr));
+        }
+        
+        
+        
+        
+        
         
     } //main
 } //cosasJava
