@@ -384,6 +384,7 @@ public class cosasJava {
         System.out.println(str_matrix[2][0]);
         */
         
+        /*
         int N = 5;
         int matriz [][] = new int [N][N];
         
@@ -395,10 +396,32 @@ public class cosasJava {
             System.out.println();
         }// for x
         
-        
+        // otra manera
         for (int[] arr: matriz) {
             System.out.println(Arrays.toString(arr));
         }
+        */
+        
+        
+        //Metodos Num Primos
+        public static boolean isPrime(int p) {
+            
+            for (int i = 2; i < p; i++) {
+                if (p % i == 0) {
+                    return false;
+                }// if
+            }// for
+            return true;
+        }// isPrime
+        
+        public static void printPrimosGemelos(int n) {
+            
+            for (int i = 2; i < n; i++) {
+                if (isPrime(i) && isPrime(i + 2)) {
+                    System.out.println(i + " " + (i + 2));
+                }// if
+            }// for
+        }// printPrimosGemelos
         
         
         
